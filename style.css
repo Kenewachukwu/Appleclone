@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@font-face {
+    font-family: helvetica-rg;
+    src: url(./fonts/Helvetica.otf);
+}
+@font-face {
+    font-family: helvetica-l;
+    src: url(./fonts/Helvetica-Light.otf);
+}
+@font-face {
+    font-family: helvetica-b;
+    src: url(./fonts/Helvetica-Bold.otf);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+    width: 100vw;
+    background-color: #fff;
+    font-family: helvetica-l;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.horizontal{
+    display: flex;
+}
+
+#country{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 15%;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(61, 61, 61);
+}
+
+#country-left{
+    color: rgb(226, 226, 226);
+    font-size: 13px;
+}
+
+#country-right{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    height: 40px;
+    border: 1px white solid;
+    border-radius: 8px;
+    color:rgb(226, 226, 226) ;
+    padding: 0% 3%;
+}
+
+#tick{
+    background-color: rgb(151, 151, 151);
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+}
+
+#nigeria{
+    width: 190px;
+}
+
+#drop-arrow{
+    width: 15px;
+    height: 10px;
+    background-image: url(./images/Arrow-down.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.continue{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(80, 105, 251);
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+
+
+#nav-bar{
+    background-color: rgb(50, 50, 50);
+    justify-content: space-between;
+    padding: 1% 15%;
+    width: 100vw;
+    
+    font-size: 13px;
+    
+}
+
+#apple-logo{
+    background-image: url(./images/Apple_logo_grey.svg);
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#search{
+    background-image: url(./images/Search_Icon.svg);
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#shopping{
+    background-image: url(./images/shopping-bag-svgrepo-com.svg);
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.links{
+    color: rgb(187, 187, 187);
+}
+
+.links:hover{
+    color: #fff;
+    transition: .3s ease;
+}
+
+#generations{
+    padding: 2% 25%;
+    justify-content: space-between;
+    width: 100vw;
+    height: 18vh;
+    background-color: #fff;
+}
+
+.airpods{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-size: 13px;
+    text-align: center;
+}
+
+#airpods2{
+    background-image: url(./images/airpods\ 2nd\ gen.png);
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#airpods3{
+    background-image: url(./images/airpods\ 3rd.png);
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#airpodspro{
+    background-image: url(./images/airpods\ pro.png);
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#airpodsmax{
+    background-image: url(./images/airpods\ max.png);
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#compare{
+    background-image: url(./images/compare.png);
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#applemusic{
+    background-image: url(./images/apple\ music.png);
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#apple-music{
+    width: 100vw;
+    height: 8vh;
+    background-color: rgb(244, 244, 244);
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.videos {
+    position: relative;
+    width: 90vw;
+    height: 75vh;
+    border-radius: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-bottom: 5vh;
+}
+
+#video-container{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+video{
+    width: 100%;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    font-size: 9vw;
+    font-family: helvetica-rg;
+}
+
+h3{
+    font-size: 28px;
+    font-family: helvetica-rg;
+}
+
+h4{
+    font-size: 20px;
+    font-family: helvetica-l;
+}
+
+.buy{
+    display: flex;
+    justify-content: space-between;
+    width: 15vw;
+   margin-top: 10vh; 
+   align-items: center;
+   color: rgb(80, 105, 251) ;
+}
